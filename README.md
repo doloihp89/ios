@@ -1,6 +1,6 @@
 |TABLE|COLUMN NAME|TYPE|DESCRIPTION|
 |:---------|----------:|:----------:|:----------:|
-|contents_sets|_id |integer primary key autoincrement||
+|**contents_sets**|_id |integer primary key autoincrement||
 ||contentSetsId|integer|use _id of content_sets on base.db|
 ||name|varchar||
 ||version|integer||
@@ -10,13 +10,13 @@
 ||category|varchar||
 ||size|integer||
 |||||
-|marker|_id|integer primary key autoincrement||
+|**marker**|_id|integer primary key autoincrement||
 ||name|varchar||
 ||media_ids|varchar|1 Marker- (1,n) Media saved in 1/2/3…|
 ||active|varchar||
 ||contentSetId|varchar|1 contentset-(1,n) marker|
 |||||
-|media|_id|integer primary key autoincrement||
+|**media**|_id|integer primary key autoincrement||
 ||unique_name|varchar||
 ||name|varchar||
 ||type|integer||
@@ -32,8 +32,13 @@
 ||scalez|varchar||
 ||url|varchar||
 |||||
-|content|_id|integer primary key autoincrement||
-||contentSetsId|integer|use _id of content_sets on base.db|
-||bookmark|integer|set status bookmark|
-||active|integer|set status active|
-||downloadStatus|integer|set status downloaded|
+|**content**|_id|integer primary key autoincrement||
+||contentSetsId|varchar||
+||url|varchar||
+||url|varchar||
+||url|varchar||
+||url|varchar||
+||url|varchar||
+||url|varchar||
+||url|varchar||
+

@@ -33,12 +33,7 @@
 ||url|varchar||
 |||||
 |**content**|_id|integer primary key autoincrement||
-||contentSetsId|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-
+||contentSetsId|integer||
+||bookmark|integer||
+||active|integer||
+||downloadStatus|integer||

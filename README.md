@@ -1,8 +1,8 @@
-|Left align|Right align|Center align|
-|:---------|----------:|:----------:|
-|This|This|This|
-|column|column|column|
-|will|will|will|
-|be|be|be|
-|left|right|center|
-|aligned|aligned|aligned|
+|TABLE|COLUMN NAME|TYPE|DESCRIPTION|
+|:---------|----------:|:----------:|:----------:|
+|contents_sets|_id |This||
+|column|column|column||
+|will|will|will||
+|be|be|be||
+|left|right|center||
+|aligned|aligned|aligned||

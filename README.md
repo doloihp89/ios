@@ -33,12 +33,7 @@
 ||url|varchar||
 |||||
 |content|_id|integer primary key autoincrement||
-||contentSetsId|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-||url|varchar||
-
+||contentSetsId|integer|use _id of content_sets on base.db|
+||bookmark|integer|set status bookmark|
+||active|integer|set status active|
+||downloadStatus|integer|set status downloaded|
